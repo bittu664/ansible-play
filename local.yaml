@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  become: yes
+  tasks: 
+  - name: display storage
+    shell: df -h
